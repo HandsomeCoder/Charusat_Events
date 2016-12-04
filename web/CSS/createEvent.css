@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-Nov-2016, 14:29:36
+    Author     : Harsh Shah
+*/
+
+body {
+}
+
+form{
+  margin-top: 20px;
+  margin-left:25%;
+}
+label{
+  font-weight: bold;
+}
+td{
+  padding: 10px;
+}
+thead{
+  font-size: 50px;
+}
+
+th{
+  padding-bottom: 30px;
+}
+tbody{
+  font-size: 20px;
+
+}
+
+textarea,input,select{
+  font-size: 20px;
+  padding:5px; 
+  border:2px #000000 solid; 
+  border-radius: 5px;
+}
+
+textarea:focus,input:focus,select:focus{
+    border-color: #ffffff;
+}
+
+textarea{
+    max-width: 500px;
+}
+
+::-webkit-input-placeholder{
+  color: #59606b;
+}
+input[type=submit],input[type=reset]{
+    background-color: #ffffff;
+    padding:5px 15px; 
+    border:2px solid #000000;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+input[type=submit]:focus,input[type=reset]:focus{
+    border-color: #ffffff;
+}
+
+input[type=submit]:hover,input[type=reset]:hover{
+    border:2px #3081a6 solid;
+    color: #3081a6;
+}
+
+
+.float-right{
+    float:right;
+}

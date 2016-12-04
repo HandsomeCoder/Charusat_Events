@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-Nov-2016, 16:06:52
+    Author     : Harsh Shah
+*/
+
+nav{
+    display: flex;
+}
+
+#pageTitle{
+    margin-top: 15px;
+    flex-grow: 3;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#editProfile{
+    flex-grow: 1;
+}
+
+#createEvent{
+    flex-grow: 1;
+}
+
+#eventsSection{
+    display: flex;
+}
+
+#eventsSection > div{
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bold;
+    border: 2px #000000 solid;
+    padding: 25px 10px;
+    margin: 70px 10px;
+}
+#eventsSection > div:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #888888;
+}
+
+#eventInfo{
+    display: flex;
+}
+
+#eventTitleContainer{
+    width: 25%;
+}
+
+#eventDesc{
+    width: 75%;
+}
+
+#eventDesc,#eventTitleContainer,#eventTitle{
+//   border: 2px #000000 solid;
+}
+
+#eventInfo{
+   visibility: hidden;
+}
+
+#eventTitleContainer h3{
+    text-align: center;
+}
+
+#eventTitle li{
+    border: 1px #ffffff solid;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#eventTitle li:hover{
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#eventDesc h1{
+    text-align: center;
+}
+
+.right-align{
+    text-align: right;
+}
+hr{
+    border:2px #000000 solid;
+}
+
+.right-margin{
+    margin-right: 2rem;
+}
+
+.left-margin{
+    margin-left: 2rem;
+}
+
+#registar{
+    margin-left: 46%;
+    cursor: pointer;
+}
+
+.deactive{
+    background-color: #888888;
+}

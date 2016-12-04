@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Sep-2016, 02:34:02
+    Author     : Harsh Shah
+*/
+body {
+}
+
+form{
+  margin-top: 10%;
+  font-family: calibri,Serif ;
+}
+
+label{
+  font-weight: bold;
+}
+
+td{
+  padding: 10px;
+}
+
+thead{
+  font-size: 50px;
+}
+
+th{
+  padding-bottom: 30px;
+}
+
+tbody{
+  font-size: 20px;
+
+}

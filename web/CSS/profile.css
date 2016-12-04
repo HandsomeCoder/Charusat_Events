@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-Nov-2016, 17:42:05
+    Author     : Harsh Shah
+*/
+
+nav{
+    display: flex;
+}
+
+#pageTitle{
+    margin-top: 15px;
+    flex-grow: 3;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#home{
+    flex-grow: 1;
+}
+
+#createEvent{
+    flex-grow: 1;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+#profileInfo{
+    margin-top: 5%;
+    display: flex;
+}
+
+#title{
+    width: 25%;
+    border: 1px #000000 solid;
+}
+
+#desc{
+    width: 75%;
+    border: 1px #000000 solid;
+}
+
+#title li{
+    border: 1px #ffffff solid;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#title li:hover{
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#desc p{
+    margin: 0vw 16vw;
+    padding: 10px 0px;
+}
+
+.green{
+    color: #46da15;
+}
+
+.red{
+    color: #ff0000;
+}
+
+.margin-left{
+    margin-left: 45%;
+}
+
+.float-right{
+    float: right;
+}
+
+.margin-top{
+    margin-top: 0;
+}
+
+#changepass{
+    background-color: transparent;
+}

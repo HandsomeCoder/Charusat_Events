@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-Nov-2016, 12:49:15
+    Author     : Harsh Shah
+*/
+body{
+    margin: 0px 15px; 
+}
+.operationalButton{
+    display: inline-block;
+    border:2px #000000 solid;
+    border-radius: 5px;
+    color: #000000;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.operationalButton:hover{
+    color:  #3081a6;
+    border-color:  #3081a6;
+    cursor: pointer;
+}
+
+form{
+  margin-top: 20px;
+}
+
+label{
+  font-weight: bold;
+}
+td{
+  padding: 10px;
+}
+input{
+  font-size: 20px;
+  padding:5px; 
+  border:2px #000000 solid; 
+  border-radius: 5px;
+}
+
+input:focus{
+  border-color:#ffffff;
+}
+
+::-webkit-input-placeholder{
+  color: #59606b;
+}
+
+input[type=submit],input[type=reset]{
+    background-color: #ffffff;
+    padding:5px 15px; 
+    border:2px solid #000000;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+input[type=submit]{
+  float: right;
+}
+input[type=submit]:hover,input[type=reset]:hover{
+    border:2px #3081a6 solid;
+    color: #3081a6;
+}
+
+.invalid{
+    animation: invalid .5s;
+	box-shadow:0 0 5px 1px #f43841;
+}
+
+@keyframes invalid{
+    0%   {margin-left:8px;}
+    15%  {margin-left :-8px;}
+    30%   {margin-left:8px;}
+    45%  {margin-left :-8px;}
+    60%  {margin-left :8px;}
+    75%  {margin-left:-8px;}
+    90%   {margin-left:8px;}
+    100% {margin-left:0;}
+}

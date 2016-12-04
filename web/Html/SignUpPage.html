@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="../CSS/signUpPage.css"/>
+  <link rel="stylesheet" href="../CSS/invalid.css"/>
+</head>
+<body>
+
+  <section>
+    <form name="signUpForm" onsubmit="return validation()" id="signUpForm" action="../signUpServlet" method="get">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2"> Sign Up Form </th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>
+          <label for="EnrolNo"> University Enrolment Number : </label>
+        </td>
+        <td>
+          <input type="text" name="EnrolNo" id="EnrolNo" placeholder="14IT120">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="Fname"> Full Name : </label>
+        </td>
+        <td>
+          <input type="text" id="Fname" name="Fname" placeholder="First Name">
+          <input type="text" id="Mname" name="Mname" placeholder="Middle Name">
+          <input type="text" id="Lname" name="Lname" placeholder="Last Name">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="Dob"> Date of Birth : </label>
+        </td>
+        <td>
+          <input type="date" id="Dob" name="Dob">
+        </td>
+      </tr>  
+      <tr>
+       <td>
+         <label for="Institute"> Institute : </label>
+       </td>
+       <td>
+         <select name="Institute" id="Institute">
+           <option value="select">--- Select Institute ---</option>
+           <option value="CSPIT"> CSPIT </option>
+           <option value="CMPICA"> CMPICA </option>
+           <option value="RPCP"> RPCP </option>
+           <option value="IIIM"> IIIM </option>
+           <option value="PDPAIS"> PDPAIS </option>
+           <option value="ARIP"> ARIP </option>
+           <option value="MTIN"> MTIN </option>
+           <option value="CIPS"> CIPS </option>
+         </select>
+       </td>
+      </tr>
+      <tr>
+       <td>
+         <label for="Branch"> Branch : </label>
+       </td>
+       <td>
+         <select name="Branch" id="Branch">
+         </select>
+       </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="Email"> College Email ID : </label>
+        </td>
+        <td>
+          <input type="email" id="Email" name="Email" placeholder="14it120@charusat.edu.in">
+        </td>
+       </tr>
+       <tr>
+        <td>
+          <label for="password"> Password : </label>
+        </td>
+        <td>
+            <input type="password" id="Password" name="Password" placeholder="password">
+        </td>
+       </tr>
+       <tr>
+        <td>
+          <label for="Cpassword"> Confirm Password : </label>
+        </td>
+        <td>
+            <input type="password" id="Cpassword" name="Cpassword" placeholder="password">
+        </td>
+       </tr>
+      </tbody>
+      <tfoot>
+      <tr>
+        <td>
+          <input type="reset">
+        </td>
+        <td>
+          <input type="submit">
+        </td>
+       </tr>
+      </tfoot>
+    </table>
+    </form>
+  </section>
+      <script type="text/javascript" src="../js/signUpPage.js"></script>
+</body>
+</html>

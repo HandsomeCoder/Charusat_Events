@@ -1,0 +1,31 @@
+.font-thead{
+    font-size: 0.5em
+}
+
+#registry{
+    margin: 20px;
+    border-collapse: collapse;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px #000000 solid;
+}
+
+#registry tbody{
+    font-size: medium;
+}
+
+#registry tr:hover {
+    background-color: #f2f2f2
+}
+
+#registry th{
+    padding: 10px;
+}
+
+.width{
+    width: 455px;
+}
+
+#closeDelete{
+    margin: 20px;
+}

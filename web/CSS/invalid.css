@@ -1,0 +1,17 @@
+.invalid{
+    animation: invalid .5s;
+	box-shadow:0 0 5px 1px #f43841;
+}
+
+@keyframes invalid{
+    0%   {margin-left:8px;}
+    15%  {margin-left :-8px;}
+    30%   {margin-left:8px;}
+    45%  {margin-left :-8px;}
+    60%  {margin-left :8px;}
+    75%  {margin-left:-8px;}
+    90%   {margin-left:8px;}
+    100% {margin-left:0;}
+}
+
+
