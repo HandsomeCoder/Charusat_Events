@@ -13,11 +13,11 @@
     </context-param>
     <context-param>
         <param-name>user</param-name>
-        <param-value>14it120@charusat.edu.in</param-value>
+        <param-value>YOUR_EMAIL_ID</param-value>
     </context-param>
     <context-param>
         <param-name>password</param-name>
-        <param-value>1q!2w@3e#4r$5t%</param-value>
+        <param-value>YOUR_PASSWORD</param-value>
     </context-param>
     <context-param>
         <param-name>URL</param-name>
